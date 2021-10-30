@@ -4,7 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< Updated upstream
   - Undefined
+=======
+>>>>>>> Stashed changes
   - Sheep
   layers:
   - Default
@@ -13,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Enemies
   - 
   - 
   - 
