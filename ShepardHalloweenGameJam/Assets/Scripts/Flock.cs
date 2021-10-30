@@ -21,11 +21,15 @@ public class Flock : MonoBehaviour
     public float neighborRadius = 1.5f;
     [Range(0f, 1f)]
     public float avoidanceRadiusMultiplier = 0.5f;
+    //[Range(1f, 1000f)]
+    public float playerAvoidanceRadius = 3f;
 
     float squareMaxSpeed;
     float squareNeighborRadius;
     float squareAvoidanceRadius;
     public float SquareAvoidanceRadius { get { return squareAvoidanceRadius; } }
+    float squarePlayerAvoidanceRadius;
+    public float SquarePlayerAvoidanceRadius { get { return squarePlayerAvoidanceRadius; } }
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +37,7 @@ public class Flock : MonoBehaviour
         squareMaxSpeed = maxSpeed * maxSpeed;
         squareNeighborRadius = neighborRadius * neighborRadius;
         squareAvoidanceRadius = squareNeighborRadius * avoidanceRadiusMultiplier * avoidanceRadiusMultiplier;
+        squarePlayerAvoidanceRadius = playerAvoidanceRadius * playerAvoidanceRadius;
 
         for (int i = 0; i < startingCount; i++) {
             FlockAgent newAgent = Instantiate(
