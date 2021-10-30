@@ -30,4 +30,13 @@ public class FlockAgent : MonoBehaviour
         if (isInPen) velocity = Vector2.zero;
         transform.position += (Vector3) velocity * Time.deltaTime;
     }
+
+    public void IsInPen()
+    {
+        Flock secondFlock = new Flock();
+        agentFlock = secondFlock;
+        isInPen = true;
+    }
+
+    
 }
