@@ -9,7 +9,7 @@ public class SameFlockFilter : ContextFilter {
         List<Transform> filtered = new List<Transform>();
         foreach(Transform item in original) {
             FlockAgent itemAgent = item.GetComponent<FlockAgent>();
-            if (itemAgent == null && itemAgent.AgentFlock == agent.AgentFlock) {
+            if (itemAgent != null && itemAgent.AgentFlock == agent.AgentFlock) {
                 filtered.Add(item);
             }
         }
