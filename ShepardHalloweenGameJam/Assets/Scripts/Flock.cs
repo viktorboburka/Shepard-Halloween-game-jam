@@ -25,6 +25,7 @@ public class Flock : MonoBehaviour
     //[Range(1f, 1000f)]
     public float playerAvoidanceRadius = 3f;
     public float playerAvoidanceWeight = 5f;
+    public float dogAvoidanceRadius = 7f;
 
     float squareMaxSpeed;
     float squareNeighborRadius;
@@ -59,15 +60,18 @@ public class Flock : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        foreach(FlockAgent agent in agents) {
+    void Update() {
+
+        GameObject[] dogs = GameObject.FindGameObjectsWithTag("Dog");
+        foreach (FlockAgent agent in agents) {
             List<Transform> context = GetNearbyObjects(agent); //what exists in the context of the neighborradius
 
             //for testing getnearbyobjects, works if you dont use sprite with set color
             //agent.GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.red, context.Count / 6f);
 
             Vector2 move = behavior.CalculateMove(agent, context, this);
+            
+            ////player repel
             Vector2 playerRepel = (Vector2) (agent.transform.position - player.transform.position);
 
             if (playerRepel != Vector2.zero && playerRepel.magnitude < playerAvoidanceRadius && Input.GetKey("space")) {
@@ -79,21 +83,29 @@ public class Flock : MonoBehaviour
                 move += playerRepel;
             }
 
+            ////dog repel
+            if (dogs.Length != 0) {
+                foreach (GameObject dog in dogs) {
+                    Vector2 dogRepel = (Vector2)(agent.transform.position - dog.transform.position);
 
+                    if (dogRepel != Vector2.zero && dogRepel.magnitude < dogAvoidanceRadius) {
+                        if (dogRepel.sqrMagnitude > playerAvoidanceWeight * playerAvoidanceWeight) {
+                            dogRepel.Normalize();
+                            dogRepel *= playerAvoidanceWeight;
+                        }
+                        move += dogRepel;
+                    }
+
+                }
+            }
+            
+            //set speed
             move *= driveFactor;
             if (move.sqrMagnitude > squareMaxSpeed) {
                 move = move.normalized * maxSpeed;
             }
+            
             agent.FlockMove(move);
-            //agent.ResetUpVector();
-            //if(move.x < 0)
-            //{
-            //    agent.turnLeft();
-            //}
-            //if(move.x > 0)
-            //{
-            //    agent.turnRight();
-            //}
         }
 
     }

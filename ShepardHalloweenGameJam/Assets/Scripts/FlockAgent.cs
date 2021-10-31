@@ -9,6 +9,8 @@ public class FlockAgent : MonoBehaviour
     [SerializeField]
     private bool isInPen;
 
+    Transform agentSprite;
+
     [SerializeField]
     Flock agentFlock;
     private bool left, right;
@@ -26,6 +28,7 @@ public class FlockAgent : MonoBehaviour
 
     public void Initialize(Flock flock) {
         agentFlock = flock;
+        agentSprite = this.gameObject.transform.GetChild(0);
     }
 
     public void FlockMove(Vector2 velocity) {
@@ -33,6 +36,13 @@ public class FlockAgent : MonoBehaviour
         transform.up = velocity;
         if (isInPen) velocity = Vector2.zero;
         transform.position += (Vector3) velocity * Time.deltaTime;
+        if (velocity.x >= 0) {
+            turnRight();
+        }
+        else {
+            turnLeft();
+        }
+        agentSprite.up = Vector2.zero;
     }
 
     public void ResetUpVector()

@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K))
         {
             killWolf();
+            playScytheAnimation();
         }
         if (Input.GetKeyDown(KeyCode.J) && _maxDogsSpawned > 0)
         {
@@ -106,13 +107,21 @@ public class Player : MonoBehaviour
 
     public void killWolf()
     {
-        Debug.Log("jsem tu");
+        //Debug.Log("jsem tu");
         Collider2D[] enemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayers);
         foreach (Collider2D enemy in enemies)
         {
             Destroy(enemy.gameObject);
         }
     }
+
+    public void playScytheAnimation() {
+        Animator scytheAnimator = gameObject.GetComponentInChildren<Animator>();
+        Debug.Log(scytheAnimator);
+        
+        scytheAnimator.Play("Base Layer.Swing");
+    }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);

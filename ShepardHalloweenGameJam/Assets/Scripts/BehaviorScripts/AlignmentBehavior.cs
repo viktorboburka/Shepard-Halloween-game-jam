@@ -10,7 +10,8 @@ public class AlignmentBehavior : FilteredFlockBehavior {
             return agent.transform.up;
         }
         //add all points and get average
-        Vector2 alignmentMove = Vector2.zero; List<Transform> filteredContext;
+        Vector2 alignmentMove = Vector2.zero;
+        List<Transform> filteredContext;
         if (filter == null) {
             filteredContext = context;
         }
@@ -18,7 +19,7 @@ public class AlignmentBehavior : FilteredFlockBehavior {
             filteredContext = filter.Filter(agent, context);
         }
         foreach (Transform item in filteredContext) {
-            alignmentMove += (Vector2)item.transform.up;
+            alignmentMove += (Vector2) item.transform.up;
         }
         alignmentMove /= context.Count;
 
