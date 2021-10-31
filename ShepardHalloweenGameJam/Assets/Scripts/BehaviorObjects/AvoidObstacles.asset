@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b37932b0bc9b654d8dc7515158cb96b, type: 3}
   m_Name: AvoidObstacles
   m_EditorClassIdentifier: 
-  filter: {fileID: 11400000, guid: 5c0909b9bd858c746bee940c90dee7d8, type: 2}
+  filter: {fileID: 11400000, guid: dce74cad9f4106d459f34fdef053b84f, type: 2}

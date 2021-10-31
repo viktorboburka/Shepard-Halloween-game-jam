@@ -9,7 +9,6 @@ public class Flock : MonoBehaviour
     List<FlockAgent> agents = new List<FlockAgent>();
     public FlockBehavior behavior;
     private GameObject player;
-    public float playerRepelWeight = 5f;
 
     [Range(0, 500)]
     public int startingCount = 250;
@@ -25,6 +24,7 @@ public class Flock : MonoBehaviour
     public float avoidanceRadiusMultiplier = 0.5f;
     //[Range(1f, 1000f)]
     public float playerAvoidanceRadius = 3f;
+    public float playerAvoidanceWeight = 5f;
 
     float squareMaxSpeed;
     float squareNeighborRadius;
@@ -71,9 +71,9 @@ public class Flock : MonoBehaviour
             Vector2 playerRepel = (Vector2) (agent.transform.position - player.transform.position);
 
             if (playerRepel != Vector2.zero && playerRepel.magnitude < playerAvoidanceRadius && Input.GetKey("space")) {
-                if (playerRepel.sqrMagnitude > playerRepelWeight * playerRepelWeight) {
+                if (playerRepel.sqrMagnitude > playerAvoidanceWeight * playerAvoidanceWeight) {
                     playerRepel.Normalize();
-                    playerRepel *= playerRepelWeight;
+                    playerRepel *= playerAvoidanceWeight;
                 }
 
                 move += playerRepel;
