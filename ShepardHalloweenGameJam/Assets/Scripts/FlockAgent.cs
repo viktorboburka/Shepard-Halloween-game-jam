@@ -11,6 +11,7 @@ public class FlockAgent : MonoBehaviour
 
     [SerializeField]
     Flock agentFlock;
+    private bool left, right;
     public Flock AgentFlock { get { return agentFlock; } }
 
     Collider2D agentCollider;
@@ -20,6 +21,8 @@ public class FlockAgent : MonoBehaviour
     {
         agentCollider = GetComponent<Collider2D>();
     }
+
+    
 
     public void Initialize(Flock flock) {
         agentFlock = flock;
@@ -32,6 +35,11 @@ public class FlockAgent : MonoBehaviour
         transform.position += (Vector3) velocity * Time.deltaTime;
     }
 
+    public void ResetUpVector()
+    {
+        transform.up = Vector2.zero;
+    }
+
     public void IsInPen()
     {
         isInPen = true;
@@ -41,5 +49,27 @@ public class FlockAgent : MonoBehaviour
     public void PlayerMove(Vector2 playerPosition) {
         
     }
-    
+
+    public void turnLeft()
+    {
+        if (left)
+        {
+            return;
+        }
+        transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+        left = true;
+        right = false;
+    }
+    public void turnRight()
+
+    {
+        if (right)
+        {
+            return;
+        }
+        transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
+        left = false;
+        right = true;
+    }
+
 }

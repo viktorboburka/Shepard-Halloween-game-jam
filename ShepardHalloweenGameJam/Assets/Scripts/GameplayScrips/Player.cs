@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         {
             killWolf();
         }
-        if (Input.GetKeyDown(KeyCode.D) && _maxDogsSpawned > 0)
+        if (Input.GetKeyDown(KeyCode.J) && _maxDogsSpawned > 0)
         {
             Instantiate(_dogPrefab, transform.position + new Vector3(-1.07f, 0, 0), Quaternion.identity);
             _maxDogsSpawned--;

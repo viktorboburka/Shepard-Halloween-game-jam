@@ -85,6 +85,15 @@ public class Flock : MonoBehaviour
                 move = move.normalized * maxSpeed;
             }
             agent.FlockMove(move);
+            //agent.ResetUpVector();
+            //if(move.x < 0)
+            //{
+            //    agent.turnLeft();
+            //}
+            //if(move.x > 0)
+            //{
+            //    agent.turnRight();
+            //}
         }
 
     }
