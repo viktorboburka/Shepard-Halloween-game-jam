@@ -22,6 +22,11 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject _dogPrefab;
     private int _maxDogsSpawned = 3;
+   
+    [SerializeField]
+    private Animator _anim;
+    [SerializeField]
+    private Animator _hooAnim;
 
 
     // Start is called before the first frame update
@@ -29,6 +34,8 @@ public class Player : MonoBehaviour
     {
         _playerAudioSource.clip = _hooHoo;
         _spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
+        //_anim = GameObject.Find("ScytheSwing1").GetComponent<Animator>();
+        _hooAnim = this.GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -40,14 +47,16 @@ public class Player : MonoBehaviour
             DoHoo();
 
         }
+        //_hooAnim.SetBool("Hoo", false);
         if (Input.GetKeyDown(KeyCode.Space))
         {
             DoHooSound();
+            
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
             killWolf();
-            playScytheAnimation();
+            
         }
         if (Input.GetKeyDown(KeyCode.J) && _maxDogsSpawned > 0)
         {
@@ -94,6 +103,8 @@ public class Player : MonoBehaviour
     public void DoHoo()
     {
         _hooing = true;
+        _hooAnim.SetTrigger("HooTrigger");
+
     }
     public void DoHooSound()
     {
@@ -107,19 +118,13 @@ public class Player : MonoBehaviour
 
     public void killWolf()
     {
-        //Debug.Log("jsem tu");
         Collider2D[] enemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayers);
         foreach (Collider2D enemy in enemies)
         {
             Destroy(enemy.gameObject);
         }
-    }
+        _anim.SetTrigger("Swipe");
 
-    public void playScytheAnimation() {
-        Animator scytheAnimator = gameObject.GetComponentInChildren<Animator>();
-        Debug.Log(scytheAnimator);
-        
-        scytheAnimator.Play("Base Layer.Swing");
     }
 
     private void OnDrawGizmosSelected()
