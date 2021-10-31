@@ -11,6 +11,8 @@ public class Wolf : MonoBehaviour
     private Transform _flockAgent;
     private int findSheepNow;
     int currentSheep = Random.Range(0, 10);
+    float dogAvoidanceRadius;
+    float dogAvoidanceWeight;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class Wolf : MonoBehaviour
         _rb = this.GetComponent<Rigidbody2D>();
         right = true;
         _flockAgent = GameObject.Find("Agent" + currentSheep).GetComponent<Transform>();
+        dogAvoidanceRadius = 5f;
         
     }
 
@@ -26,17 +29,51 @@ public class Wolf : MonoBehaviour
     {
         if(_flockAgent.position.x > 50)
         {
-            currentSheep++;
+            GameObject[] sheepGameObjects = GameObject.FindGameObjectsWithTag("Sheep");
+            currentSheep = Random.Range(0, sheepGameObjects.Length);
+            _flockAgent = GameObject.Find("Agent" + currentSheep).GetComponent<Transform>();
+
+            /*currentSheep++;
             _flockAgent = GameObject.Find("Agent" + currentSheep).GetComponent<Transform>();
             Debug.Log(currentSheep);
             if (currentSheep > 10)
             {
                 currentSheep = Random.Range(0, 10);
-            }
+            }*/
         }
         
-        Vector3 direction = _flockAgent.position - transform.position;
-        float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+        Vector2 direction = _flockAgent.position - transform.position;
+        direction.Normalize();
+        //float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
+
+        //Debug.Log("direction before dog: " + direction);
+
+        GameObject[] dogs = GameObject.FindGameObjectsWithTag("Dog");
+        if (dogs.Length != 0) {
+            foreach (GameObject dog in dogs) {
+                Vector2 dogRepel = (Vector2) (transform.position - dog.transform.position);
+
+                if (dogRepel.magnitude < dogAvoidanceRadius) {
+                    dogRepel.Normalize();
+                    direction += dogRepel;
+                }
+            }
+        }
+
+        GameObject[] obstacles = GameObject.FindGameObjectsWithTag("Obstacle");
+        if (obstacles.Length != 0) {
+            foreach (GameObject obstacle in obstacles) {
+                Vector2 obstacleRepel = (Vector2)(transform.position - obstacle.transform.position);
+
+                if (obstacleRepel.magnitude < dogAvoidanceRadius) {
+                    obstacleRepel.Normalize();
+                    direction += obstacleRepel;
+                }
+            }
+        }
+
+        //Debug.Log("direction after dog: " + direction);
+
         direction.Normalize();
         _movement = direction;
         if(direction.x > 0)
