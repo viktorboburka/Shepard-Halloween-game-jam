@@ -35,7 +35,7 @@ public class FlockAgent : MonoBehaviour
     public void IsInPen()
     {
         isInPen = true;
-        transform.Translate(new Vector3(100, 100, 0));
+        transform.position = new Vector3(100, 100, 0);
     }
 
     
