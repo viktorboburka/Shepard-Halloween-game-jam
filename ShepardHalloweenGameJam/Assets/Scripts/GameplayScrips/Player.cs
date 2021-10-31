@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
 
         //transform.Translate(new Vector2(horizontalInput, verticalInput) * _speed * Time.deltaTime);
 
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -7.8f, 7.8f), Mathf.Clamp(transform.position.y, -3.8f, 3.8f));
+        //transform.position = new Vector2(Mathf.Clamp(transform.position.x, -7.8f, 7.8f), Mathf.Clamp(transform.position.y, -3.8f, 3.8f));
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(horizontalInput, verticalInput) * _speed;
 

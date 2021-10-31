@@ -25,7 +25,7 @@ public class FlockAgent : MonoBehaviour
         agentFlock = flock;
     }
 
-    public void Move(Vector2 velocity) {
+    public void FlockMove(Vector2 velocity) {
         //if (!isDead) transform.up = velocity;
         transform.up = velocity;
         if (isInPen) velocity = Vector2.zero;
@@ -38,5 +38,8 @@ public class FlockAgent : MonoBehaviour
         transform.position = new Vector3(100, 100, 0);
     }
 
+    public void PlayerMove(Vector2 playerPosition) {
+        
+    }
     
 }
