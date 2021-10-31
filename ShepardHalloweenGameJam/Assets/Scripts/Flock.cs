@@ -8,6 +8,8 @@ public class Flock : MonoBehaviour
     public FlockAgent agentPrefab;
     List<FlockAgent> agents = new List<FlockAgent>();
     public FlockBehavior behavior;
+    private GameObject player;
+    public float playerRepelWeight = 5f;
 
     [Range(0, 500)]
     public int startingCount = 250;
@@ -52,6 +54,8 @@ public class Flock : MonoBehaviour
 
 
         }
+
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame
@@ -64,11 +68,23 @@ public class Flock : MonoBehaviour
             //agent.GetComponentInChildren<SpriteRenderer>().color = Color.Lerp(Color.white, Color.red, context.Count / 6f);
 
             Vector2 move = behavior.CalculateMove(agent, context, this);
+            Vector2 playerRepel = (Vector2) (agent.transform.position - player.transform.position);
+
+            if (playerRepel != Vector2.zero && playerRepel.magnitude < playerAvoidanceRadius && Input.GetKey("space")) {
+                if (playerRepel.sqrMagnitude > playerRepelWeight * playerRepelWeight) {
+                    playerRepel.Normalize();
+                    playerRepel *= playerRepelWeight;
+                }
+
+                move += playerRepel;
+            }
+
+
             move *= driveFactor;
             if (move.sqrMagnitude > squareMaxSpeed) {
                 move = move.normalized * maxSpeed;
             }
-            agent.Move(move);
+            agent.FlockMove(move);
         }
 
     }

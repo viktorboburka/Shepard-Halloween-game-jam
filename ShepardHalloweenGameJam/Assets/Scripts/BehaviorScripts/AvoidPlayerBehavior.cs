@@ -6,6 +6,9 @@ using UnityEngine;
 public class AvoidPlayerBehavior : FilteredFlockBehavior
 {
     public override Vector2 CalculateMove(FlockAgent agent, List<Transform> context, Flock flock) {
+
+
+
         //no neighbors no change
         if (context.Count == 0) {
             return Vector2.zero;
