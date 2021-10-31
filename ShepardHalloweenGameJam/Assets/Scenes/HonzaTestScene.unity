@@ -1735,6 +1735,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 85817f2ddd395644d9aef4f1d596af76, type: 3}
+    - target: {fileID: 977260947315901508, guid: 652f6948111c66643afd6b9ba46f6a0a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 977260947315901511, guid: 652f6948111c66643afd6b9ba46f6a0a, type: 3}
       propertyPath: m_Name
       value: Player
