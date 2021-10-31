@@ -62,6 +62,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInPen: 0
+  agentFlock: {fileID: 0}
 --- !u!1 &2174723715293214339
 GameObject:
   m_ObjectHideFlags: 0

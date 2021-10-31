@@ -39,10 +39,6 @@ public class Wolf : MonoBehaviour
         float angle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
         direction.Normalize();
         _movement = direction;
-        if (transform.position.y <= -5f)
-        {
-            Destroy(this.gameObject);
-        }
         if(direction.x > 0)
         {
             turnRight();
