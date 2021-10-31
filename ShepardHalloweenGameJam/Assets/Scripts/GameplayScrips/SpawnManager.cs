@@ -10,13 +10,16 @@ public class SpawnManager : MonoBehaviour
    
     [SerializeField]
     private GameObject _wolfPrefab;
+   
+  
 
-    [SerializeField]
-    private GameObject _sheepPrefab;
+  
  
     void Start()
     {
-       // StartCoroutine(SpawnAnEnemy());
+       StartCoroutine(SpawnAnEnemy());
+      
+       
     }
 
     // Update is called once per frame
@@ -33,9 +36,8 @@ public class SpawnManager : MonoBehaviour
             yield return new WaitForSeconds(3.0f);
         }
     }
+
+  
     
-    public void SpawnSpriteInPen()
-    {
-        Instantiate(_sheepPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-    }
+    
 }

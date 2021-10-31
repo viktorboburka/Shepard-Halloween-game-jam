@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class PenDoor : MonoBehaviour
 {
+   
     private FlockAgent _flockAgent;
     // Start is called before the first frame update
+
+    [SerializeField]
+    private GameObject[] _sheepPlural;
+
+    private int _numberOfSheepInPen = 0;
 
     private SpawnManager _spawnManager;
     void Start()
@@ -19,16 +25,15 @@ public class PenDoor : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    IEnumerator OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("koliduju");
         if (other.tag == "Sheep")
         {
             FlockAgent flockAgent = other.transform.GetComponent<FlockAgent>();
-            //yield return new WaitForSeconds(2f);
-            //flockAgent.IsInPen();
-            Destroy(other.gameObject);
-            _spawnManager.SpawnSpriteInPen();
+            yield return new WaitForSeconds(0.1f);
+            flockAgent.IsInPen();
+            _sheepPlural[_numberOfSheepInPen].SetActive(true);
+            _numberOfSheepInPen++;
         }
     }
 

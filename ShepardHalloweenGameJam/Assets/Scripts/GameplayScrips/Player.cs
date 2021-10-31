@@ -18,11 +18,17 @@ public class Player : MonoBehaviour
     private float _attackRange = 1.0f;
     [SerializeField]
     private LayerMask _enemyLayers;
+    private SpawnManager _spawnManager;
+    [SerializeField]
+    private GameObject _dogPrefab;
+    private int _maxDogsSpawned = 3;
+
 
     // Start is called before the first frame update
     void Start()
     {
         _playerAudioSource.clip = _hooHoo;
+        _spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
@@ -42,6 +48,11 @@ public class Player : MonoBehaviour
         {
             killWolf();
         }
+        if (Input.GetKeyDown(KeyCode.D) && _maxDogsSpawned > 0)
+        {
+            Instantiate(_dogPrefab, transform.position + new Vector3(-1.07f, 0, 0), Quaternion.identity);
+            _maxDogsSpawned--;
+        }
     }
 
     void calculateMovement()
@@ -56,6 +67,27 @@ public class Player : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(horizontalInput, verticalInput) * _speed;
 
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            TurnRight();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            TurnLeft();
+        }
+    }
+
+    public void TurnRight()
+    {
+        if(transform.localScale.x > 0)
+        {
+            transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+        }
+    }
+
+    public void TurnLeft()
+    {
+        transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
     }
 
     public void DoHoo()
@@ -86,4 +118,5 @@ public class Player : MonoBehaviour
         Gizmos.DrawWireSphere(_attackPoint.position, _attackRange);
     }
 }
+    
 

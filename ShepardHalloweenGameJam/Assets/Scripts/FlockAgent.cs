@@ -9,6 +9,7 @@ public class FlockAgent : MonoBehaviour
     [SerializeField]
     private bool isInPen;
 
+    [SerializeField]
     Flock agentFlock;
     public Flock AgentFlock { get { return agentFlock; } }
 
@@ -33,9 +34,8 @@ public class FlockAgent : MonoBehaviour
 
     public void IsInPen()
     {
-        Flock secondFlock = new Flock();
-        agentFlock = secondFlock;
         isInPen = true;
+        transform.Translate(new Vector3(100, 100, 0));
     }
 
     
