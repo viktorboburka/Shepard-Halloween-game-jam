@@ -32,8 +32,8 @@ public class SpawnManager : MonoBehaviour
     {
         while (true)
         {
-            Instantiate(_wolfPrefab, new Vector3(Random.Range(-8f, 8f), 4, 0), Quaternion.identity);
-            yield return new WaitForSeconds(3.0f);
+            Instantiate(_wolfPrefab, new Vector3(Random.Range(-35f, 35f), 18, 0), Quaternion.identity);
+            yield return new WaitForSeconds(10.0f);
         }
     }
 
