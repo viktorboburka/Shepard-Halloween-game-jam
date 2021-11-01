@@ -13,6 +13,7 @@ public class Wolf : MonoBehaviour
     int currentSheep = Random.Range(0, 10);
     float dogAvoidanceRadius;
     float dogAvoidanceWeight;
+    SpriteRenderer _spriteRenderer;
 
     void Start()
     {
@@ -21,6 +22,8 @@ public class Wolf : MonoBehaviour
         right = true;
         _flockAgent = GameObject.Find("Agent" + currentSheep).GetComponent<Transform>();
         dogAvoidanceRadius = 5f;
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _spriteRenderer.flipX = true; 
         
     }
 
@@ -95,15 +98,24 @@ public class Wolf : MonoBehaviour
         _rb.MovePosition((Vector2)transform.position + (direction * 2 * Time.deltaTime));
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Sheep")
+        {
+            other.transform.position =  new Vector3(100, 100, 0);
+        }
+    }
+
     public void turnLeft()
     {
         if (left)
         {
             return;
         }
+
         transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
         left = true;
-        right = false;
+        right = false;    
     }
     public void turnRight()
       
@@ -114,6 +126,6 @@ public class Wolf : MonoBehaviour
         }
         transform.localScale = new Vector2(Mathf.Abs(transform.localScale.x), transform.localScale.y);
         left = false;
-        right = true; 
+        right = true;
     }
 }

@@ -50,3 +50,6 @@ MonoBehaviour:
   maxSpeed: 5
   neighborRadius: 1.5
   avoidanceRadiusMultiplier: 0.5
+  playerAvoidanceRadius: 3
+  playerAvoidanceWeight: 5
+  dogAvoidanceRadius: 7

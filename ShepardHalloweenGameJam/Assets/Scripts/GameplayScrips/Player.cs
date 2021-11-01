@@ -121,7 +121,11 @@ public class Player : MonoBehaviour
         Collider2D[] enemies = Physics2D.OverlapCircleAll(_attackPoint.position, _attackRange, _enemyLayers);
         foreach (Collider2D enemy in enemies)
         {
-            Destroy(enemy.gameObject);
+            if(enemy.tag == "Wolf")
+            {
+                Destroy(enemy.gameObject);
+            }
+            
         }
         _anim.SetTrigger("Swipe");
 
