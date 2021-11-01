@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Wolf : MonoBehaviour
 {
+    private PenDoor _penDoor;
     private Transform _player;
     private Rigidbody2D _rb;
     private Vector2 _movement;
@@ -26,6 +27,7 @@ public class Wolf : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _spriteRenderer.flipX = true;
         spawnedTime = Time.time;
+        _penDoor = GameObject.Find("PenDoor").GetComponent<PenDoor>();
     }
 
     // Update is called once per frame
@@ -108,6 +110,7 @@ public class Wolf : MonoBehaviour
         if(other.tag == "Sheep")
         {
             other.transform.position =  new Vector3(100, 100, 0);
+            _penDoor._numberOfSheepKilled++;
         }
     }
 
