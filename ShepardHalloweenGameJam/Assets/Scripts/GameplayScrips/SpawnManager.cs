@@ -24,7 +24,7 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > (spawned + 1) * spawnTime && spawned < toSpawn) {
+        if (Time.timeSinceLevelLoad > (spawned + 1) * spawnTime && spawned < toSpawn) {
             Instantiate(_wolfPrefab, this.transform.position, Quaternion.identity);
             spawned++;
         }

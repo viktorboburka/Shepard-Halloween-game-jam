@@ -501,11 +501,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5016290930838281872, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.56
+      value: 7.17
       objectReference: {fileID: 0}
     - target: {fileID: 5016290930838281872, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -4.37
       objectReference: {fileID: 0}
     - target: {fileID: 5016290930838281872, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -542,6 +542,14 @@ PrefabInstance:
     - target: {fileID: 5016290930838281878, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
       propertyPath: m_Name
       value: WolvesSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016290930838281879, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
+      propertyPath: toSpawn
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5016290930838281879, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
+      propertyPath: spawnTime
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63831d4c59f287242b547901bbdc29cc, type: 3}
@@ -36113,8 +36121,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.91968, y: -267.32977}
-  m_SizeDelta: {x: 330.5606, y: 43.7404}
+  m_AnchoredPosition: {x: -218.91968, y: -250.5946}
+  m_SizeDelta: {x: 330.5606, y: 77.2108}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803682650
 MonoBehaviour:
@@ -36151,7 +36159,12 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press space to scare sheep!
 
-    Try to get them into the pen.'
+    Try to get them into the pen.
+
+    Kill
+    wolves by pressing K.
+
+    Place helping dogs by pressing J.'
 --- !u!222 &1803682651
 CanvasRenderer:
   m_ObjectHideFlags: 0
