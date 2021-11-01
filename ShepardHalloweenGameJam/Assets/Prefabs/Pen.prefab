@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4927452726995728953}
   - component: {fileID: 4927452726995728955}
   - component: {fileID: 4927452726995728954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (51)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452726995728952}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -192,9 +192,9 @@ GameObject:
   - component: {fileID: 4927452727012218971}
   - component: {fileID: 4927452727012218973}
   - component: {fileID: 4927452727012218972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (90)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -220,7 +220,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727012218970}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -291,9 +291,9 @@ GameObject:
   - component: {fileID: 4927452727028253796}
   - component: {fileID: 4927452727028253798}
   - component: {fileID: 4927452727028253797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (63)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -319,7 +319,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727028253795}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -390,9 +390,9 @@ GameObject:
   - component: {fileID: 4927452727032161932}
   - component: {fileID: 4927452727032161934}
   - component: {fileID: 4927452727032161933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (58)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +418,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727032161931}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -489,9 +489,9 @@ GameObject:
   - component: {fileID: 4927452727065508221}
   - component: {fileID: 4927452727065508223}
   - component: {fileID: 4927452727065508222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (53)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -517,7 +517,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727065508220}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -588,9 +588,9 @@ GameObject:
   - component: {fileID: 4927452727073296976}
   - component: {fileID: 4927452727073296978}
   - component: {fileID: 4927452727073296977}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (68)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -616,7 +616,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727073296991}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -687,9 +687,9 @@ GameObject:
   - component: {fileID: 4927452727128874345}
   - component: {fileID: 4927452727128874347}
   - component: {fileID: 4927452727128874346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -715,7 +715,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727128874344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -786,9 +786,9 @@ GameObject:
   - component: {fileID: 4927452727130503160}
   - component: {fileID: 4927452727130503162}
   - component: {fileID: 4927452727130503161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (24)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,7 +814,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727130503143}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -885,9 +885,9 @@ GameObject:
   - component: {fileID: 4927452727140820263}
   - component: {fileID: 4927452727140820281}
   - component: {fileID: 4927452727140820280}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (35)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,7 +913,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727140820262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -984,9 +984,9 @@ GameObject:
   - component: {fileID: 4927452727171217938}
   - component: {fileID: 4927452727171217940}
   - component: {fileID: 4927452727171217939}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (43)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1012,7 +1012,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727171217937}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1083,9 +1083,9 @@ GameObject:
   - component: {fileID: 4927452727190204419}
   - component: {fileID: 4927452727190204421}
   - component: {fileID: 4927452727190204420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (8)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1111,7 +1111,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727190204418}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1182,9 +1182,9 @@ GameObject:
   - component: {fileID: 4927452727194395942}
   - component: {fileID: 4927452727194395960}
   - component: {fileID: 4927452727194395943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (66)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1210,7 +1210,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727194395941}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1281,9 +1281,9 @@ GameObject:
   - component: {fileID: 4927452727246543208}
   - component: {fileID: 4927452727246543210}
   - component: {fileID: 4927452727246543209}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (19)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1309,7 +1309,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727246543191}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1380,9 +1380,9 @@ GameObject:
   - component: {fileID: 4927452727249025388}
   - component: {fileID: 4927452727249025390}
   - component: {fileID: 4927452727249025389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (17)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1408,7 +1408,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727249025387}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1479,9 +1479,9 @@ GameObject:
   - component: {fileID: 4927452727285458319}
   - component: {fileID: 4927452727285458305}
   - component: {fileID: 4927452727285458304}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (41)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1507,7 +1507,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727285458318}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1734,9 +1734,9 @@ GameObject:
   - component: {fileID: 4927452727307418001}
   - component: {fileID: 4927452727307418003}
   - component: {fileID: 4927452727307418002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (13)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1762,7 +1762,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727307418000}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -1997,9 +1997,9 @@ GameObject:
   - component: {fileID: 4927452727375904592}
   - component: {fileID: 4927452727375904594}
   - component: {fileID: 4927452727375904593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (81)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2025,7 +2025,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727375904607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2096,9 +2096,9 @@ GameObject:
   - component: {fileID: 4927452727410419932}
   - component: {fileID: 4927452727410419934}
   - component: {fileID: 4927452727410419933}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (32)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2124,7 +2124,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727410419931}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2277,9 +2277,9 @@ GameObject:
   - component: {fileID: 4927452727462919028}
   - component: {fileID: 4927452727462919030}
   - component: {fileID: 4927452727462919029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (33)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2305,7 +2305,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727462919027}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2376,9 +2376,9 @@ GameObject:
   - component: {fileID: 4927452727473333922}
   - component: {fileID: 4927452727473333924}
   - component: {fileID: 4927452727473333923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (73)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2404,7 +2404,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727473333921}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2475,9 +2475,9 @@ GameObject:
   - component: {fileID: 4927452727476439309}
   - component: {fileID: 4927452727476439311}
   - component: {fileID: 4927452727476439310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (61)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2503,7 +2503,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727476439308}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2574,9 +2574,9 @@ GameObject:
   - component: {fileID: 4927452727478789799}
   - component: {fileID: 4927452727478789817}
   - component: {fileID: 4927452727478789816}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (85)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2602,7 +2602,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727478789798}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2673,9 +2673,9 @@ GameObject:
   - component: {fileID: 4927452727491942151}
   - component: {fileID: 4927452727491942169}
   - component: {fileID: 4927452727491942168}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (86)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2701,7 +2701,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727491942150}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2772,9 +2772,9 @@ GameObject:
   - component: {fileID: 4927452727512069479}
   - component: {fileID: 4927452727512069497}
   - component: {fileID: 4927452727512069496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (20)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2800,7 +2800,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727512069478}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2953,9 +2953,9 @@ GameObject:
   - component: {fileID: 4927452727569070137}
   - component: {fileID: 4927452727569070139}
   - component: {fileID: 4927452727569070138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (91)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2981,7 +2981,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727569070136}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3052,9 +3052,9 @@ GameObject:
   - component: {fileID: 4927452727578838311}
   - component: {fileID: 4927452727578838329}
   - component: {fileID: 4927452727578838328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (77)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3080,7 +3080,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727578838310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3151,9 +3151,9 @@ GameObject:
   - component: {fileID: 4927452727587526113}
   - component: {fileID: 4927452727587526115}
   - component: {fileID: 4927452727587526114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (56)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3179,7 +3179,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727587526112}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3250,9 +3250,9 @@ GameObject:
   - component: {fileID: 4927452727587605668}
   - component: {fileID: 4927452727587605670}
   - component: {fileID: 4927452727587605669}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (74)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3278,7 +3278,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727587605667}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3349,9 +3349,9 @@ GameObject:
   - component: {fileID: 4927452727588253511}
   - component: {fileID: 4927452727588253529}
   - component: {fileID: 4927452727588253528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (89)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3377,7 +3377,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727588253510}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3448,9 +3448,9 @@ GameObject:
   - component: {fileID: 4927452727621410384}
   - component: {fileID: 4927452727621410386}
   - component: {fileID: 4927452727621410385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (84)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3476,7 +3476,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727621410399}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3547,9 +3547,9 @@ GameObject:
   - component: {fileID: 4927452727626582043}
   - component: {fileID: 4927452727626582045}
   - component: {fileID: 4927452727626582044}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (31)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3575,7 +3575,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727626582042}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3688,9 +3688,9 @@ GameObject:
   - component: {fileID: 4927452727662897425}
   - component: {fileID: 4927452727662897427}
   - component: {fileID: 4927452727662897426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (71)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3716,7 +3716,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727662897424}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3787,9 +3787,9 @@ GameObject:
   - component: {fileID: 4927452727682250179}
   - component: {fileID: 4927452727682250181}
   - component: {fileID: 4927452727682250180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (78)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3815,7 +3815,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727682250178}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3886,9 +3886,9 @@ GameObject:
   - component: {fileID: 4927452727693862082}
   - component: {fileID: 4927452727693862084}
   - component: {fileID: 4927452727693862083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (59)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3914,7 +3914,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727693862081}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3985,9 +3985,9 @@ GameObject:
   - component: {fileID: 4927452727729682144}
   - component: {fileID: 4927452727729682146}
   - component: {fileID: 4927452727729682145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (76)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4013,7 +4013,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727729682159}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4084,9 +4084,9 @@ GameObject:
   - component: {fileID: 4927452727800571875}
   - component: {fileID: 4927452727800571877}
   - component: {fileID: 4927452727800571876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (21)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4112,7 +4112,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727800571874}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4183,9 +4183,9 @@ GameObject:
   - component: {fileID: 4927452727820400823}
   - component: {fileID: 4927452727820400841}
   - component: {fileID: 4927452727820400840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (16)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4211,7 +4211,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727820400822}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4282,9 +4282,9 @@ GameObject:
   - component: {fileID: 4927452727821582342}
   - component: {fileID: 4927452727821582360}
   - component: {fileID: 4927452727821582343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (60)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4310,7 +4310,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727821582341}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4381,9 +4381,9 @@ GameObject:
   - component: {fileID: 4927452727833962924}
   - component: {fileID: 4927452727833962926}
   - component: {fileID: 4927452727833962925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (49)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4409,7 +4409,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727833962923}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4480,9 +4480,9 @@ GameObject:
   - component: {fileID: 4927452727882909235}
   - component: {fileID: 4927452727882909237}
   - component: {fileID: 4927452727882909236}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (45)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4508,7 +4508,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727882909234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4579,9 +4579,9 @@ GameObject:
   - component: {fileID: 4927452727897576770}
   - component: {fileID: 4927452727897576772}
   - component: {fileID: 4927452727897576771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (64)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4607,7 +4607,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727897576769}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4678,9 +4678,9 @@ GameObject:
   - component: {fileID: 4927452727939396804}
   - component: {fileID: 4927452727939396806}
   - component: {fileID: 4927452727939396805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (9)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4706,7 +4706,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727939396803}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4777,9 +4777,9 @@ GameObject:
   - component: {fileID: 4927452727939821061}
   - component: {fileID: 4927452727939821063}
   - component: {fileID: 4927452727939821062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (22)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4805,7 +4805,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727939821060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4876,9 +4876,9 @@ GameObject:
   - component: {fileID: 4927452727946130133}
   - component: {fileID: 4927452727946130135}
   - component: {fileID: 4927452727946130134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (2)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4904,7 +4904,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452727946130132}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4975,9 +4975,9 @@ GameObject:
   - component: {fileID: 4927452728012206655}
   - component: {fileID: 4927452728012206641}
   - component: {fileID: 4927452728012206640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (72)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5003,7 +5003,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728012206654}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5074,9 +5074,9 @@ GameObject:
   - component: {fileID: 4927452728018674287}
   - component: {fileID: 4927452728018674273}
   - component: {fileID: 4927452728018674272}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (18)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5102,7 +5102,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728018674286}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5173,9 +5173,9 @@ GameObject:
   - component: {fileID: 4927452728034747135}
   - component: {fileID: 4927452728034747121}
   - component: {fileID: 4927452728034747120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (82)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5201,7 +5201,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728034747134}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5272,9 +5272,9 @@ GameObject:
   - component: {fileID: 4927452728068907829}
   - component: {fileID: 4927452728068907831}
   - component: {fileID: 4927452728068907830}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (1)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5300,7 +5300,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728068907828}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5371,9 +5371,9 @@ GameObject:
   - component: {fileID: 4927452728105571534}
   - component: {fileID: 4927452728105571520}
   - component: {fileID: 4927452728105571535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (29)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5399,7 +5399,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728105571533}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5470,9 +5470,9 @@ GameObject:
   - component: {fileID: 4927452728122680739}
   - component: {fileID: 4927452728122680741}
   - component: {fileID: 4927452728122680740}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (14)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5498,7 +5498,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728122680738}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5651,9 +5651,9 @@ GameObject:
   - component: {fileID: 4927452728148133541}
   - component: {fileID: 4927452728148133543}
   - component: {fileID: 4927452728148133542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (65)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5679,7 +5679,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728148133540}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -5750,9 +5750,9 @@ GameObject:
   - component: {fileID: 4927452728164090317}
   - component: {fileID: 4927452728164090319}
   - component: {fileID: 4927452728164090318}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (62)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5778,7 +5778,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728164090316}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6013,9 +6013,9 @@ GameObject:
   - component: {fileID: 4927452728175904352}
   - component: {fileID: 4927452728175904354}
   - component: {fileID: 4927452728175904353}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (6)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6041,7 +6041,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728175904367}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6112,9 +6112,9 @@ GameObject:
   - component: {fileID: 4927452728176888416}
   - component: {fileID: 4927452728176888418}
   - component: {fileID: 4927452728176888417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (50)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6140,7 +6140,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728176888431}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6297,9 +6297,9 @@ GameObject:
   - component: {fileID: 4927452728201299804}
   - component: {fileID: 4927452728201299806}
   - component: {fileID: 4927452728201299805}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (87)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6325,7 +6325,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728201299803}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6478,9 +6478,9 @@ GameObject:
   - component: {fileID: 4927452728228179286}
   - component: {fileID: 4927452728228179304}
   - component: {fileID: 4927452728228179287}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (83)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6506,7 +6506,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728228179285}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6577,9 +6577,9 @@ GameObject:
   - component: {fileID: 4927452728258522391}
   - component: {fileID: 4927452728258522409}
   - component: {fileID: 4927452728258522408}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (39)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6605,7 +6605,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728258522390}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6676,9 +6676,9 @@ GameObject:
   - component: {fileID: 4927452728283693036}
   - component: {fileID: 4927452728283693038}
   - component: {fileID: 4927452728283693037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (27)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6704,7 +6704,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728283693035}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6775,9 +6775,9 @@ GameObject:
   - component: {fileID: 4927452728323185651}
   - component: {fileID: 4927452728323185653}
   - component: {fileID: 4927452728323185652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (7)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6803,7 +6803,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728323185650}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -6996,9 +6996,9 @@ GameObject:
   - component: {fileID: 4927452728420454065}
   - component: {fileID: 4927452728420454067}
   - component: {fileID: 4927452728420454066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (23)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7024,7 +7024,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728420454064}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7095,9 +7095,9 @@ GameObject:
   - component: {fileID: 4927452728423706692}
   - component: {fileID: 4927452728423706694}
   - component: {fileID: 4927452728423706693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (36)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7123,7 +7123,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728423706691}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7194,9 +7194,9 @@ GameObject:
   - component: {fileID: 4927452728460170789}
   - component: {fileID: 4927452728460170791}
   - component: {fileID: 4927452728460170790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (30)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7222,7 +7222,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728460170788}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7293,9 +7293,9 @@ GameObject:
   - component: {fileID: 4927452728496673924}
   - component: {fileID: 4927452728496673926}
   - component: {fileID: 4927452728496673925}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (12)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7321,7 +7321,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728496673923}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7392,9 +7392,9 @@ GameObject:
   - component: {fileID: 4927452728520244038}
   - component: {fileID: 4927452728520244056}
   - component: {fileID: 4927452728520244039}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (57)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7420,7 +7420,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728520244037}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7491,9 +7491,9 @@ GameObject:
   - component: {fileID: 4927452728552230137}
   - component: {fileID: 4927452728552230139}
   - component: {fileID: 4927452728552230138}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (42)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7519,7 +7519,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728552230136}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7590,9 +7590,9 @@ GameObject:
   - component: {fileID: 4927452728552417641}
   - component: {fileID: 4927452728552417643}
   - component: {fileID: 4927452728552417642}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (40)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7618,7 +7618,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728552417640}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7689,9 +7689,9 @@ GameObject:
   - component: {fileID: 4927452728564782345}
   - component: {fileID: 4927452728564782347}
   - component: {fileID: 4927452728564782346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (37)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7717,7 +7717,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728564782344}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7788,9 +7788,9 @@ GameObject:
   - component: {fileID: 4927452728574669279}
   - component: {fileID: 4927452728574669265}
   - component: {fileID: 4927452728574669264}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (38)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7816,7 +7816,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728574669278}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7887,9 +7887,9 @@ GameObject:
   - component: {fileID: 4927452728576436355}
   - component: {fileID: 4927452728576436357}
   - component: {fileID: 4927452728576436356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (48)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7915,7 +7915,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728576436354}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7986,9 +7986,9 @@ GameObject:
   - component: {fileID: 4927452728588857578}
   - component: {fileID: 4927452728588857580}
   - component: {fileID: 4927452728588857579}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (34)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8014,7 +8014,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728588857577}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8167,9 +8167,9 @@ GameObject:
   - component: {fileID: 4927452728638484485}
   - component: {fileID: 4927452728638484487}
   - component: {fileID: 4927452728638484486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (52)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8195,7 +8195,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728638484484}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8266,9 +8266,9 @@ GameObject:
   - component: {fileID: 4927452728641647637}
   - component: {fileID: 4927452728641647639}
   - component: {fileID: 4927452728641647638}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (5)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8294,7 +8294,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728641647636}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8365,9 +8365,9 @@ GameObject:
   - component: {fileID: 4927452728660501059}
   - component: {fileID: 4927452728660501061}
   - component: {fileID: 4927452728660501060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (28)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8393,7 +8393,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728660501058}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8464,9 +8464,9 @@ GameObject:
   - component: {fileID: 4927452728682992889}
   - component: {fileID: 4927452728682992891}
   - component: {fileID: 4927452728682992890}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (88)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8492,7 +8492,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728682992888}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8563,9 +8563,9 @@ GameObject:
   - component: {fileID: 4927452728691915088}
   - component: {fileID: 4927452728691915090}
   - component: {fileID: 4927452728691915089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (46)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8591,7 +8591,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728691915103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8662,9 +8662,9 @@ GameObject:
   - component: {fileID: 4927452728711766367}
   - component: {fileID: 4927452728711766353}
   - component: {fileID: 4927452728711766352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (10)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8690,7 +8690,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728711766366}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8761,9 +8761,9 @@ GameObject:
   - component: {fileID: 4927452728735705706}
   - component: {fileID: 4927452728735705708}
   - component: {fileID: 4927452728735705707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (70)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8789,7 +8789,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728735705705}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8860,9 +8860,9 @@ GameObject:
   - component: {fileID: 4927452728789966653}
   - component: {fileID: 4927452728789966655}
   - component: {fileID: 4927452728789966654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (4)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8888,7 +8888,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728789966652}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -8959,9 +8959,9 @@ GameObject:
   - component: {fileID: 4927452728803012864}
   - component: {fileID: 4927452728803012866}
   - component: {fileID: 4927452728803012865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (80)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8987,7 +8987,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728803012879}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9058,9 +9058,9 @@ GameObject:
   - component: {fileID: 4927452728807161581}
   - component: {fileID: 4927452728807161583}
   - component: {fileID: 4927452728807161582}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (75)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9086,7 +9086,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728807161580}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9239,9 +9239,9 @@ GameObject:
   - component: {fileID: 4927452728823551325}
   - component: {fileID: 4927452728823551327}
   - component: {fileID: 4927452728823551326}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (11)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9267,7 +9267,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728823551324}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9338,9 +9338,9 @@ GameObject:
   - component: {fileID: 4927452728830486867}
   - component: {fileID: 4927452728830486869}
   - component: {fileID: 4927452728830486868}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (47)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9366,7 +9366,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728830486866}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9519,9 +9519,9 @@ GameObject:
   - component: {fileID: 4927452728868458237}
   - component: {fileID: 4927452728868458239}
   - component: {fileID: 4927452728868458238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (26)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9547,7 +9547,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728868458236}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9618,9 +9618,9 @@ GameObject:
   - component: {fileID: 4927452728896557698}
   - component: {fileID: 4927452728896557700}
   - component: {fileID: 4927452728896557699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (44)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9646,7 +9646,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728896557697}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9799,9 +9799,9 @@ GameObject:
   - component: {fileID: 4927452728903173738}
   - component: {fileID: 4927452728903173740}
   - component: {fileID: 4927452728903173739}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (67)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9827,7 +9827,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728903173737}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9898,9 +9898,9 @@ GameObject:
   - component: {fileID: 4927452728932283358}
   - component: {fileID: 4927452728932283344}
   - component: {fileID: 4927452728932283359}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (79)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9926,7 +9926,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728932283357}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9997,9 +9997,9 @@ GameObject:
   - component: {fileID: 4927452728943264178}
   - component: {fileID: 4927452728943264180}
   - component: {fileID: 4927452728943264179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (3)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10025,7 +10025,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728943264177}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10096,9 +10096,9 @@ GameObject:
   - component: {fileID: 4927452728959549212}
   - component: {fileID: 4927452728959549214}
   - component: {fileID: 4927452728959549213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (54)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10124,7 +10124,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728959549211}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10195,9 +10195,9 @@ GameObject:
   - component: {fileID: 4927452728976869125}
   - component: {fileID: 4927452728976869127}
   - component: {fileID: 4927452728976869126}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (15)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10223,7 +10223,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452728976869124}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10294,9 +10294,9 @@ GameObject:
   - component: {fileID: 4927452729041993209}
   - component: {fileID: 4927452729041993211}
   - component: {fileID: 4927452729041993210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (25)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10322,7 +10322,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452729041993208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10393,9 +10393,9 @@ GameObject:
   - component: {fileID: 4927452729096461682}
   - component: {fileID: 4927452729096461684}
   - component: {fileID: 4927452729096461683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (69)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10421,7 +10421,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452729096461681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10492,9 +10492,9 @@ GameObject:
   - component: {fileID: 4927452729102588254}
   - component: {fileID: 4927452729102588240}
   - component: {fileID: 4927452729102588255}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (55)
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10520,7 +10520,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4927452729102588253}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
