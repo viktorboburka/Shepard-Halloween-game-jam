@@ -76,11 +76,11 @@ public class Player : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(horizontalInput, verticalInput) * _speed;
 
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
             TurnRight();
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
         {
             TurnLeft();
         }
