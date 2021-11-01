@@ -53,7 +53,7 @@ public class FlockAgent : MonoBehaviour
     public void IsInPen()
     {
         isInPen = true;
-        transform.position = new Vector3(100, 100, 0);
+        transform.position = new Vector3(1000, 1000, 0);
     }
 
     public void PlayerMove(Vector2 playerPosition) {

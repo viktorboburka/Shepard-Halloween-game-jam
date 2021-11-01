@@ -19,9 +19,9 @@ public class Flock : MonoBehaviour
     public const float AgentDensity = 0.08f;
 
     [Range(1f, 100f)]
-    public float driveFactor = 10f;
+    public float driveFactor = 5f;
     [Range(1f, 100f)]
-    public float maxSpeed = 5f;
+    public float maxSpeed = 3f;
     [Range(1f, 10f)]
     public float neighborRadius = 1.5f;
     [Range(0f, 1f)]
@@ -126,7 +126,7 @@ public class Flock : MonoBehaviour
 
         float deadAgents = 0;
         foreach (FlockAgent agent in agents) {
-            if (agent.transform.position.x > 99 && agent.transform.position.y > 99) {
+            if (agent.transform.position.x > 50 && agent.transform.position.y > 50) {
                 deadAgents++;
             }
         }

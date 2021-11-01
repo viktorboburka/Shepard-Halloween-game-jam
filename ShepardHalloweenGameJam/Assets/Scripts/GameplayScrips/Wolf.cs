@@ -11,7 +11,7 @@ public class Wolf : MonoBehaviour
     private bool left, right;
     private Transform _flockAgent;
     private int findSheepNow;
-    int currentSheep = Random.Range(0, 10);
+    int currentSheep;
     float dogAvoidanceRadius;
     float dogAvoidanceWeight;
     SpriteRenderer _spriteRenderer;
@@ -25,6 +25,8 @@ public class Wolf : MonoBehaviour
         _player = GameObject.Find("Player").GetComponent<Transform>();
         _rb = this.GetComponent<Rigidbody2D>();
         right = true;
+        currentSheep = Random.Range(0, 10);
+        currentSheep = 0;
         _flockAgent = GameObject.Find("Agent" + currentSheep).GetComponent<Transform>();
         dogAvoidanceRadius = 5f;
         _spriteRenderer = GetComponent<SpriteRenderer>();
@@ -79,7 +81,7 @@ public class Wolf : MonoBehaviour
             foreach (GameObject obstacle in obstacles) {
                 Vector2 obstacleRepel = (Vector2)(transform.position - obstacle.transform.position);
 
-                if (obstacleRepel.magnitude < dogAvoidanceRadius) {
+                if (obstacleRepel.magnitude < dogAvoidanceRadius / 3) {
                     obstacleRepel.Normalize();
                     direction += obstacleRepel;
                 }
@@ -113,7 +115,8 @@ public class Wolf : MonoBehaviour
     {
         if(other.tag == "Sheep")
         {
-            other.transform.position =  new Vector3(100, 100, 0);
+            other.transform.position =  new Vector3(1000, 1000, 0);
+            
             _wolfSpeed = 0;
             yield return new WaitForSeconds(1f);
             _wolfSpeed = 2;
