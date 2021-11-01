@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Flock : MonoBehaviour
 {
@@ -118,6 +119,20 @@ public class Flock : MonoBehaviour
             }
             
             agent.FlockMove(move);
+        }
+
+        float deadAgents = 0;
+        foreach (FlockAgent agent in agents) {
+            if (agent.transform.position.x > 99 && agent.transform.position.y > 99) {
+                deadAgents++;
+            }
+        }
+
+        if (deadAgents >= startingCount) {
+            if (SceneManager.GetActiveScene().buildIndex == 2) {
+                SceneManager.LoadScene(0);
+            }
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
     }

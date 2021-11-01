@@ -4527,6 +4527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PenFixedCenter
       objectReference: {fileID: 0}
+    - target: {fileID: 6502014696415146625, guid: ab857341432bc234a836c63b1136486b, type: 3}
+      propertyPath: maxSheep
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab857341432bc234a836c63b1136486b, type: 3}
 --- !u!4 &354934860 stripped
@@ -11841,11 +11845,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3392712898318712250, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
       propertyPath: dogAvoidanceRadius
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3392712898318712250, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
       propertyPath: playerAvoidanceRadius
-      value: 7
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392712898318712250, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
+      propertyPath: playerAvoidanceWeight
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3392712898318712251, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
       propertyPath: m_Name

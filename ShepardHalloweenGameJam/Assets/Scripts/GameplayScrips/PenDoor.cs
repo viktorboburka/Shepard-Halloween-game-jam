@@ -12,7 +12,7 @@ public class PenDoor : MonoBehaviour
     [SerializeField]
     private GameObject[] _sheepPlural;
 
-    private int _numberOfSheepInPen = 0;
+    public int _numberOfSheepInPen = 0;
     public int _numberOfSheepKilled;
     public int maxSheep = 5;
 
