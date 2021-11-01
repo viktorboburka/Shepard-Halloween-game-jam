@@ -289,9 +289,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'New text New text New text New text New text New text New text New text
-    New text New text New text New text New text New text New text New text New text
-    New text New text New text New text New text New text New text '
+  m_Text: As the night came down, evil forces let the sheep grazing free, left for
+    the hungry beasts prowling around. The shepherd slumbers unconsciously, so it
+    is up to Gabriel to stop the feast.
 --- !u!222 &560105468
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -11,6 +11,8 @@ public class Flock : MonoBehaviour
     public FlockBehavior behavior;
     private GameObject player;
     private GameObject pen;
+    private float sceneEndTime = -1f;
+    private bool sceneOver = false;
 
     [Range(0, 500)]
     public int startingCount = 250;
@@ -123,16 +125,21 @@ public class Flock : MonoBehaviour
 
         float deadAgents = 0;
         foreach (FlockAgent agent in agents) {
+
             if (agent.transform.position.x > 99 && agent.transform.position.y > 99) {
                 deadAgents++;
             }
         }
 
         if (deadAgents >= startingCount) {
-            if (SceneManager.GetActiveScene().buildIndex == 2) {
-                SceneManager.LoadScene(0);
+            sceneOver = true;
+            sceneEndTime = Time.time + 5f;
+            if (sceneOver && Time.time > sceneEndTime) {
+                if (SceneManager.GetActiveScene().buildIndex == 2) {
+                    SceneManager.LoadScene(0);
+                }
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
     }

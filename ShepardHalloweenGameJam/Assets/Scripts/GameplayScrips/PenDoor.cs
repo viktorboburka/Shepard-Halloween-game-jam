@@ -26,7 +26,7 @@ public class PenDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_numberOfSheepInPen + _numberOfSheepKilled >= maxSheep) {
+        /*if (_numberOfSheepInPen + _numberOfSheepKilled >= maxSheep) {
             //SceneManager.LoadScene("TutorialScene", LoadSceneMode.Additive);
             if (SceneManager.GetActiveScene().buildIndex == 2) {
                 SceneManager.LoadScene(0);
@@ -34,7 +34,7 @@ public class PenDoor : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         Debug.Log("Sheep in pen: " + _numberOfSheepInPen);
-        Debug.Log("maxSheep: " + maxSheep);
+        Debug.Log("maxSheep: " + maxSheep);*/
     }
 
     IEnumerator OnTriggerEnter2D(Collider2D other)
