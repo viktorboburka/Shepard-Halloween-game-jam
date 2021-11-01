@@ -28,8 +28,7 @@ public class audioscript : MonoBehaviour
     { 
         _audioSource2.Play();
         yield return new WaitForSeconds(6f);
-        _audioSource2.Stop();
-        _audioSource.time = 6.12f;
+        
         _audioSource.Play();
     }
 }

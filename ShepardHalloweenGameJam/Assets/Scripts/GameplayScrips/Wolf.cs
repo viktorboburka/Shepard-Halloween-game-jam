@@ -15,6 +15,9 @@ public class Wolf : MonoBehaviour
     float dogAvoidanceWeight;
     SpriteRenderer _spriteRenderer;
     float spawnedTime;
+    [SerializeField]
+    private Animator _animator;
+    private int _wolfSpeed;
 
     void Start()
     {
@@ -26,6 +29,8 @@ public class Wolf : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _spriteRenderer.flipX = true;
         spawnedTime = Time.time;
+        _wolfSpeed = 2;
+        
     }
 
     // Update is called once per frame
@@ -100,15 +105,20 @@ public class Wolf : MonoBehaviour
     }
     void moveCharacter(Vector2 direction)
     {
-        _rb.MovePosition((Vector2)transform.position + (direction * 2 * Time.deltaTime));
+        _rb.MovePosition((Vector2)transform.position + (direction * _wolfSpeed * Time.deltaTime));
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    IEnumerator OnTriggerEnter2D(Collider2D other)
     {
         if(other.tag == "Sheep")
         {
             other.transform.position =  new Vector3(100, 100, 0);
+            _wolfSpeed = 0;
+            yield return new WaitForSeconds(1f);
+            _wolfSpeed = 2;
         }
+       
+
     }
 
     public void turnLeft()
