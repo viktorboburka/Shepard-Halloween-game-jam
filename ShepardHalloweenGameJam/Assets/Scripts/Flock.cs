@@ -61,11 +61,13 @@ public class Flock : MonoBehaviour
         }
 
         player = GameObject.Find("Player");
-        pen = GameObject.Find("Pen");
+        pen = GameObject.Find("PenDoor");
     }
 
     // Update is called once per frame
     void Update() {
+
+        
 
         GameObject[] dogs = GameObject.FindGameObjectsWithTag("Dog");
         foreach (FlockAgent agent in agents) {
@@ -119,27 +121,39 @@ public class Flock : MonoBehaviour
             if (move.sqrMagnitude > squareMaxSpeed) {
                 move = move.normalized * maxSpeed;
             }
-            
             agent.FlockMove(move);
         }
 
         float deadAgents = 0;
         foreach (FlockAgent agent in agents) {
-
             if (agent.transform.position.x > 99 && agent.transform.position.y > 99) {
                 deadAgents++;
             }
         }
 
         if (deadAgents >= startingCount) {
+            Debug.Log("scene end: " + sceneEndTime + "current time: " + Time.time);
+            if (!sceneOver) {
+                GameObject canvas = GameObject.Find("Canvas");
+                ShowScore ss = canvas.GetComponent<ShowScore>();
+
+                PenDoor pd = pen.GetComponent<PenDoor>();
+                int sheepSaved = pd._numberOfSheepInPen;
+
+                ss.textChange(sheepSaved, startingCount);
+                sceneEndTime = Time.time + 5f;
+            }
             sceneOver = true;
-            sceneEndTime = Time.time + 5f;
-            if (sceneOver && Time.time > sceneEndTime) {
+            if (Time.time > sceneEndTime) {
                 if (SceneManager.GetActiveScene().buildIndex == 2) {
                     SceneManager.LoadScene(0);
                 }
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
+        }
+
+        if (Input.GetKeyDown("r")) {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
     }

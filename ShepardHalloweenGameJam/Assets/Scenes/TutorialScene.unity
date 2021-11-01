@@ -28868,14 +28868,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3392712898318712250, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
-      propertyPath: startingCount
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3392712898318712250, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
-      propertyPath: playerAvoidanceRadius
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 3392712898318712251, guid: 531e5b2d7e9cb934b8759ab1d6471387, type: 3}
       propertyPath: m_Name
       value: Flock
@@ -36254,8 +36246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.91968, y: -250.5946}
-  m_SizeDelta: {x: 330.5606, y: 77.2108}
+  m_AnchoredPosition: {x: -218.91968, y: -245.06313}
+  m_SizeDelta: {x: 330.5606, y: 88.2738}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803682650
 MonoBehaviour:
@@ -36297,7 +36289,10 @@ MonoBehaviour:
     Kill
     wolves by pressing K.
 
-    Place helping dogs by pressing J.'
+    Place helping dogs by pressing J.
+
+    Press R to
+    restart.'
 --- !u!222 &1803682651
 CanvasRenderer:
   m_ObjectHideFlags: 0
