@@ -12,20 +12,25 @@ public class PenDoor : MonoBehaviour
     [SerializeField]
     private GameObject[] _sheepPlural;
 
-    private int _numberOfSheepInPen = 0;
+    public int _numberOfSheepInPen = 0;
+    public int _numberOfSheepKilled;
     public int maxSheep = 5;
 
     private SpawnManager _spawnManager;
     void Start()
     {
+        _numberOfSheepKilled = 0;
         _spawnManager = GameObject.Find("SpawnManager").GetComponent<SpawnManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_numberOfSheepInPen >= maxSheep) {
+        if (_numberOfSheepInPen + _numberOfSheepKilled >= maxSheep) {
             //SceneManager.LoadScene("TutorialScene", LoadSceneMode.Additive);
+            if (SceneManager.GetActiveScene().buildIndex == 2) {
+                SceneManager.LoadScene(0);
+            }
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         Debug.Log("Sheep in pen: " + _numberOfSheepInPen);

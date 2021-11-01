@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Wolf : MonoBehaviour
 {
+    private PenDoor _penDoor;
     private Transform _player;
     private Rigidbody2D _rb;
     private Vector2 _movement;
