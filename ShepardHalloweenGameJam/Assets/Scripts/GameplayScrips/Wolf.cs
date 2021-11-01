@@ -14,6 +14,7 @@ public class Wolf : MonoBehaviour
     float dogAvoidanceRadius;
     float dogAvoidanceWeight;
     SpriteRenderer _spriteRenderer;
+    float spawnedTime;
 
     void Start()
     {
@@ -23,13 +24,17 @@ public class Wolf : MonoBehaviour
         _flockAgent = GameObject.Find("Agent" + currentSheep).GetComponent<Transform>();
         dogAvoidanceRadius = 5f;
         _spriteRenderer = GetComponent<SpriteRenderer>();
-        _spriteRenderer.flipX = true; 
-        
+        _spriteRenderer.flipX = true;
+        spawnedTime = Time.time;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Time.time < spawnedTime + 1) {
+            return;
+        }
+
         if(_flockAgent.position.x > 50)
         {
             GameObject[] sheepGameObjects = GameObject.FindGameObjectsWithTag("Sheep");
