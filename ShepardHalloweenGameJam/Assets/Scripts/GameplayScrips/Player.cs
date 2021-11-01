@@ -53,12 +53,11 @@ public class Player : MonoBehaviour
             DoHooSound();
             
         }
-        if (Input.GetKeyDown(KeyCode.K))
-        {
+        if (Input.GetKeyDown(KeyCode.K) || Input.GetMouseButtonDown(0))
+        { 
             killWolf();
-            
         }
-        if (Input.GetKeyDown(KeyCode.J) && _maxDogsSpawned > 0)
+        if ((Input.GetKeyDown(KeyCode.J) || Input.GetMouseButtonDown(1)) && _maxDogsSpawned > 0)
         {
             Instantiate(_dogPrefab, transform.position + new Vector3(-1.07f, 0, 0), Quaternion.identity);
             _maxDogsSpawned--;

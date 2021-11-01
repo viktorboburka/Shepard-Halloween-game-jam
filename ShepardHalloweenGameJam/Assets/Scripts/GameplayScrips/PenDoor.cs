@@ -40,6 +40,7 @@ public class PenDoor : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             flockAgent.IsInPen();
             _sheepPlural[_numberOfSheepInPen].SetActive(true);
+            
             _numberOfSheepInPen++;
         }
     }

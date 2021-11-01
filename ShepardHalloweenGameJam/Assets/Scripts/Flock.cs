@@ -9,6 +9,7 @@ public class Flock : MonoBehaviour
     List<FlockAgent> agents = new List<FlockAgent>();
     public FlockBehavior behavior;
     private GameObject player;
+    private GameObject pen;
 
     [Range(0, 500)]
     public int startingCount = 250;
@@ -57,6 +58,7 @@ public class Flock : MonoBehaviour
         }
 
         player = GameObject.Find("Player");
+        pen = GameObject.Find("Pen");
     }
 
     // Update is called once per frame
@@ -97,6 +99,16 @@ public class Flock : MonoBehaviour
                     }
 
                 }
+            }
+
+            ////pen door attract
+            Vector2 penAttract = (Vector2)(agent.transform.position - pen.transform.position) * 2;
+            if (penAttract != Vector2.zero && playerRepel.magnitude < playerAvoidanceRadius/2) {
+                if (penAttract.sqrMagnitude > playerAvoidanceWeight * playerAvoidanceWeight * 3) {
+                    penAttract.Normalize();
+                    penAttract *= playerAvoidanceWeight * 3;
+                }
+                move -= penAttract;
             }
             
             //set speed
